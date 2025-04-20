@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopSmart Pulse - Product Registration</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>ShopSmart Pulse</h1>
+    <nav>
+      <a href="product.html">Products</a>
+      <a href="sales.html">Sales</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="inventory.html">Inventory</a>
+      <a href="campaign.html">Campaigns</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Product Registration</h2>
+    <form id="productForm">
+      <!-- Product selection -->
+      <select id="productNameSelect" name="product_name" required>
+        <option value="">Select Product</option>
+      </select>
+
+      <!-- These will be auto-filled -->
+      <input type="text" id="brandInput" name="brand" placeholder="Brand" readonly required />
+      <input type="text" id="categoryInput" name="category" placeholder="Category" readonly required />
+
+      <!-- Location dropdowns -->
+      <select id="countrySelect" name="country" required>
+        <option value="">Select Country</option>
+      </select>
+      <select id="stateSelect" name="state" required>
+        <option value="">Select State</option>
+      </select>
+      <select id="citySelect" name="city" required>
+        <option value="">Select City</option>
+      </select>
+
+      <!-- Launch date -->
+      <input type="date" name="launchDate" required />
+
+      <!-- Editable numeric fields -->
+      <input type="number" id="costPriceInput" name="cost_price" placeholder="Cost Price (₹)" step="0.01" required />
+      <input type="number" id="sellingPriceInput" name="selling_price" placeholder="Selling Price (₹)" step="0.01" required />
+      <input type="number" id="shelfLifeInput" name="shelf_life" placeholder="Shelf Life (in days)" required />
+
+      <button type="submit" id="submitBtn">
+        Register Product
+        <span class="spinner hidden" id="spinner"></span>
+      </button>      
+    </form>
+  </div>
+
+  <script src="js/product.js"></script>
+</body>
+</html>

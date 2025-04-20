@@ -1,0 +1,2562 @@
+[
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Soap Bar",
+    "defaultCostPrice": 281.51,
+    "defaultSellingPrice": 395.94,
+    "defaultShelfLife": 910
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Instant Noodles",
+    "defaultCostPrice": 195.39,
+    "defaultSellingPrice": 260.54,
+    "defaultShelfLife": 464
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Face Wash",
+    "defaultCostPrice": 46.51,
+    "defaultSellingPrice": 66.27,
+    "defaultShelfLife": 1054
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Deodorant",
+    "defaultCostPrice": 198.98,
+    "defaultSellingPrice": 330.77,
+    "defaultShelfLife": 199
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Toothpaste",
+    "defaultCostPrice": 77.64,
+    "defaultSellingPrice": 118.26,
+    "defaultShelfLife": 554
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Mayonnaise",
+    "defaultCostPrice": 387.22,
+    "defaultSellingPrice": 483.56,
+    "defaultShelfLife": 643
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Toothpaste",
+    "defaultCostPrice": 64.94,
+    "defaultSellingPrice": 95.62,
+    "defaultShelfLife": 425
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Liquid Detergent",
+    "defaultCostPrice": 257.04,
+    "defaultSellingPrice": 398.9,
+    "defaultShelfLife": 573
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Mouthwash",
+    "defaultCostPrice": 341.85,
+    "defaultSellingPrice": 425.41,
+    "defaultShelfLife": 666
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Mayonnaise",
+    "defaultCostPrice": 127.7,
+    "defaultSellingPrice": 212.33,
+    "defaultShelfLife": 1043
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Soap Bar",
+    "defaultCostPrice": 122.54,
+    "defaultSellingPrice": 199.81,
+    "defaultShelfLife": 233
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Conditioner",
+    "defaultCostPrice": 51.07,
+    "defaultSellingPrice": 64.92,
+    "defaultShelfLife": 365
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Handwash",
+    "defaultCostPrice": 45.81,
+    "defaultSellingPrice": 54.77,
+    "defaultShelfLife": 920
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Conditioner",
+    "defaultCostPrice": 266.38,
+    "defaultSellingPrice": 343.37,
+    "defaultShelfLife": 433
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Coffee Pack",
+    "defaultCostPrice": 331.71,
+    "defaultSellingPrice": 441.3,
+    "defaultShelfLife": 935
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Liquid Detergent",
+    "defaultCostPrice": 265.19,
+    "defaultSellingPrice": 324.72,
+    "defaultShelfLife": 855
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Dishwash Gel",
+    "defaultCostPrice": 381.11,
+    "defaultSellingPrice": 453.02,
+    "defaultShelfLife": 1050
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Tea Pack",
+    "defaultCostPrice": 287.09,
+    "defaultSellingPrice": 475.18,
+    "defaultShelfLife": 189
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Soap Bar",
+    "defaultCostPrice": 238.31,
+    "defaultSellingPrice": 298.39,
+    "defaultShelfLife": 887
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Floor Cleaner",
+    "defaultCostPrice": 127.72,
+    "defaultSellingPrice": 202.16,
+    "defaultShelfLife": 834
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Body Lotion",
+    "defaultCostPrice": 82.53,
+    "defaultSellingPrice": 127.18,
+    "defaultShelfLife": 717
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Conditioner",
+    "defaultCostPrice": 207.93,
+    "defaultSellingPrice": 272.63,
+    "defaultShelfLife": 1007
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Mouthwash",
+    "defaultCostPrice": 82.27,
+    "defaultSellingPrice": 97.64,
+    "defaultShelfLife": 1026
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Conditioner",
+    "defaultCostPrice": 34.78,
+    "defaultSellingPrice": 44.5,
+    "defaultShelfLife": 971
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Instant Noodles",
+    "defaultCostPrice": 134.52,
+    "defaultSellingPrice": 179.44,
+    "defaultShelfLife": 1093
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Mouthwash",
+    "defaultCostPrice": 252.73,
+    "defaultSellingPrice": 349.74,
+    "defaultShelfLife": 684
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Dishwash Gel",
+    "defaultCostPrice": 173.72,
+    "defaultSellingPrice": 274.08,
+    "defaultShelfLife": 781
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Cream",
+    "defaultCostPrice": 99.3,
+    "defaultSellingPrice": 132.42,
+    "defaultShelfLife": 714
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Floor Cleaner",
+    "defaultCostPrice": 79.52,
+    "defaultSellingPrice": 95.37,
+    "defaultShelfLife": 414
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Instant Noodles",
+    "defaultCostPrice": 110.1,
+    "defaultSellingPrice": 146.32,
+    "defaultShelfLife": 907
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Cream",
+    "defaultCostPrice": 291.95,
+    "defaultSellingPrice": 365.46,
+    "defaultShelfLife": 285
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Conditioner",
+    "defaultCostPrice": 295.8,
+    "defaultSellingPrice": 492.38,
+    "defaultShelfLife": 594
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Mayonnaise",
+    "defaultCostPrice": 88.65,
+    "defaultSellingPrice": 105.04,
+    "defaultShelfLife": 547
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Floor Cleaner",
+    "defaultCostPrice": 188.3,
+    "defaultSellingPrice": 271.89,
+    "defaultShelfLife": 544
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Toothpaste",
+    "defaultCostPrice": 188.26,
+    "defaultSellingPrice": 241.31,
+    "defaultShelfLife": 210
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Instant Noodles",
+    "defaultCostPrice": 74.91,
+    "defaultSellingPrice": 117.93,
+    "defaultShelfLife": 941
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Conditioner",
+    "defaultCostPrice": 99.45,
+    "defaultSellingPrice": 147.23,
+    "defaultShelfLife": 1011
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Detergent Powder",
+    "defaultCostPrice": 68.51,
+    "defaultSellingPrice": 104.46,
+    "defaultShelfLife": 311
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Coffee Pack",
+    "defaultCostPrice": 142.65,
+    "defaultSellingPrice": 170.46,
+    "defaultShelfLife": 429
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Face Wash",
+    "defaultCostPrice": 53.59,
+    "defaultSellingPrice": 66.77,
+    "defaultShelfLife": 366
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Dishwash Gel",
+    "defaultCostPrice": 191.41,
+    "defaultSellingPrice": 276.05,
+    "defaultShelfLife": 923
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Mayonnaise",
+    "defaultCostPrice": 244.45,
+    "defaultSellingPrice": 331.69,
+    "defaultShelfLife": 1031
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Mouthwash",
+    "defaultCostPrice": 312.14,
+    "defaultSellingPrice": 466.71,
+    "defaultShelfLife": 1007
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Detergent Powder",
+    "defaultCostPrice": 176.43,
+    "defaultSellingPrice": 224.51,
+    "defaultShelfLife": 462
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Toothpaste",
+    "defaultCostPrice": 199.49,
+    "defaultSellingPrice": 302.51,
+    "defaultShelfLife": 237
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Deodorant",
+    "defaultCostPrice": 144.28,
+    "defaultSellingPrice": 178.49,
+    "defaultShelfLife": 446
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Scrub",
+    "defaultCostPrice": 56.05,
+    "defaultSellingPrice": 89.26,
+    "defaultShelfLife": 377
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Mouthwash",
+    "defaultCostPrice": 153.43,
+    "defaultSellingPrice": 230.03,
+    "defaultShelfLife": 804
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Floor Cleaner",
+    "defaultCostPrice": 273.15,
+    "defaultSellingPrice": 418.07,
+    "defaultShelfLife": 838
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Cream",
+    "defaultCostPrice": 302.02,
+    "defaultSellingPrice": 411.92,
+    "defaultShelfLife": 354
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Coffee Pack",
+    "defaultCostPrice": 288.53,
+    "defaultSellingPrice": 427.28,
+    "defaultShelfLife": 252
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Instant Noodles",
+    "defaultCostPrice": 251.9,
+    "defaultSellingPrice": 341.33,
+    "defaultShelfLife": 343
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Liquid Detergent",
+    "defaultCostPrice": 158.79,
+    "defaultSellingPrice": 210.5,
+    "defaultShelfLife": 264
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Handwash",
+    "defaultCostPrice": 159.75,
+    "defaultSellingPrice": 190.87,
+    "defaultShelfLife": 629
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Liquid Detergent",
+    "defaultCostPrice": 47.98,
+    "defaultSellingPrice": 58.85,
+    "defaultShelfLife": 806
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Liquid Detergent",
+    "defaultCostPrice": 169.37,
+    "defaultSellingPrice": 229.79,
+    "defaultShelfLife": 857
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Floor Cleaner",
+    "defaultCostPrice": 80.81,
+    "defaultSellingPrice": 132.33,
+    "defaultShelfLife": 565
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Detergent Powder",
+    "defaultCostPrice": 107.03,
+    "defaultSellingPrice": 167.82,
+    "defaultShelfLife": 967
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Tea Pack",
+    "defaultCostPrice": 239.21,
+    "defaultSellingPrice": 287.11,
+    "defaultShelfLife": 488
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Detergent Powder",
+    "defaultCostPrice": 369.35,
+    "defaultSellingPrice": 437.4,
+    "defaultShelfLife": 665
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Conditioner",
+    "defaultCostPrice": 116.74,
+    "defaultSellingPrice": 147.89,
+    "defaultShelfLife": 265
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Tea Pack",
+    "defaultCostPrice": 63.43,
+    "defaultSellingPrice": 103.08,
+    "defaultShelfLife": 371
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Handwash",
+    "defaultCostPrice": 384.47,
+    "defaultSellingPrice": 459.29,
+    "defaultShelfLife": 866
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Handwash",
+    "defaultCostPrice": 114.58,
+    "defaultSellingPrice": 138.0,
+    "defaultShelfLife": 904
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Scrub",
+    "defaultCostPrice": 354.22,
+    "defaultSellingPrice": 471.81,
+    "defaultShelfLife": 602
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Dishwash Gel",
+    "defaultCostPrice": 162.05,
+    "defaultSellingPrice": 193.59,
+    "defaultShelfLife": 410
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Detergent Powder",
+    "defaultCostPrice": 130.44,
+    "defaultSellingPrice": 175.49,
+    "defaultShelfLife": 996
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Deodorant",
+    "defaultCostPrice": 109.93,
+    "defaultSellingPrice": 169.51,
+    "defaultShelfLife": 204
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Conditioner",
+    "defaultCostPrice": 103.61,
+    "defaultSellingPrice": 131.68,
+    "defaultShelfLife": 1093
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Hair Oil",
+    "defaultCostPrice": 352.1,
+    "defaultSellingPrice": 450.4,
+    "defaultShelfLife": 520
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Body Lotion",
+    "defaultCostPrice": 281.38,
+    "defaultSellingPrice": 427.3,
+    "defaultShelfLife": 981
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Body Lotion",
+    "defaultCostPrice": 371.3,
+    "defaultSellingPrice": 460.92,
+    "defaultShelfLife": 426
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Scrub",
+    "defaultCostPrice": 340.24,
+    "defaultSellingPrice": 411.32,
+    "defaultShelfLife": 970
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Mayonnaise",
+    "defaultCostPrice": 123.82,
+    "defaultSellingPrice": 164.33,
+    "defaultShelfLife": 668
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Hair Oil",
+    "defaultCostPrice": 24.03,
+    "defaultSellingPrice": 37.49,
+    "defaultShelfLife": 789
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Scrub",
+    "defaultCostPrice": 205.64,
+    "defaultSellingPrice": 271.02,
+    "defaultShelfLife": 510
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Toothpaste",
+    "defaultCostPrice": 72.74,
+    "defaultSellingPrice": 120.51,
+    "defaultShelfLife": 453
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Handwash",
+    "defaultCostPrice": 189.83,
+    "defaultSellingPrice": 257.48,
+    "defaultShelfLife": 1076
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Face Wash",
+    "defaultCostPrice": 335.25,
+    "defaultSellingPrice": 456.61,
+    "defaultShelfLife": 814
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Handwash",
+    "defaultCostPrice": 162.51,
+    "defaultSellingPrice": 199.09,
+    "defaultShelfLife": 620
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Detergent Powder",
+    "defaultCostPrice": 285.58,
+    "defaultSellingPrice": 455.32,
+    "defaultShelfLife": 503
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Toothpaste",
+    "defaultCostPrice": 146.62,
+    "defaultSellingPrice": 177.25,
+    "defaultShelfLife": 941
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Tea Pack",
+    "defaultCostPrice": 213.49,
+    "defaultSellingPrice": 292.08,
+    "defaultShelfLife": 1095
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Scrub",
+    "defaultCostPrice": 125.47,
+    "defaultSellingPrice": 160.66,
+    "defaultShelfLife": 747
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Shampoo",
+    "defaultCostPrice": 163.38,
+    "defaultSellingPrice": 224.93,
+    "defaultShelfLife": 507
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Soap Bar",
+    "defaultCostPrice": 292.01,
+    "defaultSellingPrice": 357.53,
+    "defaultShelfLife": 446
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Deodorant",
+    "defaultCostPrice": 24.41,
+    "defaultSellingPrice": 36.6,
+    "defaultShelfLife": 314
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Dishwash Gel",
+    "defaultCostPrice": 56.42,
+    "defaultSellingPrice": 70.94,
+    "defaultShelfLife": 698
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Body Lotion",
+    "defaultCostPrice": 220.24,
+    "defaultSellingPrice": 269.57,
+    "defaultShelfLife": 690
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Deodorant",
+    "defaultCostPrice": 213.98,
+    "defaultSellingPrice": 281.26,
+    "defaultShelfLife": 824
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Shampoo",
+    "defaultCostPrice": 204.72,
+    "defaultSellingPrice": 280.34,
+    "defaultShelfLife": 1064
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Mouthwash",
+    "defaultCostPrice": 214.86,
+    "defaultSellingPrice": 349.81,
+    "defaultShelfLife": 263
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Instant Noodles",
+    "defaultCostPrice": 52.03,
+    "defaultSellingPrice": 66.66,
+    "defaultShelfLife": 442
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Conditioner",
+    "defaultCostPrice": 57.52,
+    "defaultSellingPrice": 73.33,
+    "defaultShelfLife": 533
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Cream",
+    "defaultCostPrice": 340.99,
+    "defaultSellingPrice": 436.29,
+    "defaultShelfLife": 321
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Shampoo",
+    "defaultCostPrice": 292.32,
+    "defaultSellingPrice": 473.54,
+    "defaultShelfLife": 968
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Toothpaste",
+    "defaultCostPrice": 25.43,
+    "defaultSellingPrice": 39.05,
+    "defaultShelfLife": 838
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Scrub",
+    "defaultCostPrice": 131.0,
+    "defaultSellingPrice": 202.4,
+    "defaultShelfLife": 769
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Coffee Pack",
+    "defaultCostPrice": 268.42,
+    "defaultSellingPrice": 353.86,
+    "defaultShelfLife": 770
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Hair Oil",
+    "defaultCostPrice": 75.19,
+    "defaultSellingPrice": 104.6,
+    "defaultShelfLife": 401
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Tea Pack",
+    "defaultCostPrice": 168.51,
+    "defaultSellingPrice": 265.67,
+    "defaultShelfLife": 501
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Handwash",
+    "defaultCostPrice": 175.13,
+    "defaultSellingPrice": 229.32,
+    "defaultShelfLife": 949
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Cream",
+    "defaultCostPrice": 384.18,
+    "defaultSellingPrice": 471.21,
+    "defaultShelfLife": 448
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Floor Cleaner",
+    "defaultCostPrice": 367.48,
+    "defaultSellingPrice": 471.82,
+    "defaultShelfLife": 196
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Instant Noodles",
+    "defaultCostPrice": 132.76,
+    "defaultSellingPrice": 167.16,
+    "defaultShelfLife": 492
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Handwash",
+    "defaultCostPrice": 261.43,
+    "defaultSellingPrice": 399.01,
+    "defaultShelfLife": 831
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Hair Oil",
+    "defaultCostPrice": 48.7,
+    "defaultSellingPrice": 78.35,
+    "defaultShelfLife": 1014
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Hair Oil",
+    "defaultCostPrice": 116.21,
+    "defaultSellingPrice": 191.18,
+    "defaultShelfLife": 485
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Scrub",
+    "defaultCostPrice": 173.11,
+    "defaultSellingPrice": 276.81,
+    "defaultShelfLife": 1058
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Mouthwash",
+    "defaultCostPrice": 353.93,
+    "defaultSellingPrice": 492.37,
+    "defaultShelfLife": 1032
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Liquid Detergent",
+    "defaultCostPrice": 43.83,
+    "defaultSellingPrice": 55.95,
+    "defaultShelfLife": 441
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Detergent Powder",
+    "defaultCostPrice": 187.68,
+    "defaultSellingPrice": 273.65,
+    "defaultShelfLife": 386
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Liquid Detergent",
+    "defaultCostPrice": 294.68,
+    "defaultSellingPrice": 485.02,
+    "defaultShelfLife": 992
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Face Wash",
+    "defaultCostPrice": 217.68,
+    "defaultSellingPrice": 348.6,
+    "defaultShelfLife": 721
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Face Wash",
+    "defaultCostPrice": 274.39,
+    "defaultSellingPrice": 338.74,
+    "defaultShelfLife": 1044
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Instant Noodles",
+    "defaultCostPrice": 93.21,
+    "defaultSellingPrice": 130.33,
+    "defaultShelfLife": 601
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Dishwash Gel",
+    "defaultCostPrice": 166.91,
+    "defaultSellingPrice": 249.72,
+    "defaultShelfLife": 427
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Dishwash Gel",
+    "defaultCostPrice": 107.77,
+    "defaultSellingPrice": 155.09,
+    "defaultShelfLife": 1034
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Hair Oil",
+    "defaultCostPrice": 207.82,
+    "defaultSellingPrice": 271.25,
+    "defaultShelfLife": 274
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Detergent Powder",
+    "defaultCostPrice": 326.62,
+    "defaultSellingPrice": 387.88,
+    "defaultShelfLife": 968
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Scrub",
+    "defaultCostPrice": 341.56,
+    "defaultSellingPrice": 458.55,
+    "defaultShelfLife": 251
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Toothpaste",
+    "defaultCostPrice": 194.79,
+    "defaultSellingPrice": 279.4,
+    "defaultShelfLife": 938
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Mouthwash",
+    "defaultCostPrice": 368.75,
+    "defaultSellingPrice": 491.03,
+    "defaultShelfLife": 916
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Handwash",
+    "defaultCostPrice": 172.31,
+    "defaultSellingPrice": 205.36,
+    "defaultShelfLife": 501
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Detergent Powder",
+    "defaultCostPrice": 29.94,
+    "defaultSellingPrice": 47.18,
+    "defaultShelfLife": 562
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Deodorant",
+    "defaultCostPrice": 132.37,
+    "defaultSellingPrice": 203.91,
+    "defaultShelfLife": 180
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Tea Pack",
+    "defaultCostPrice": 54.9,
+    "defaultSellingPrice": 89.99,
+    "defaultShelfLife": 333
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Shampoo",
+    "defaultCostPrice": 205.84,
+    "defaultSellingPrice": 323.3,
+    "defaultShelfLife": 555
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Cream",
+    "defaultCostPrice": 383.37,
+    "defaultSellingPrice": 474.8,
+    "defaultShelfLife": 783
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Coffee Pack",
+    "defaultCostPrice": 251.43,
+    "defaultSellingPrice": 393.25,
+    "defaultShelfLife": 206
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Instant Noodles",
+    "defaultCostPrice": 256.18,
+    "defaultSellingPrice": 418.3,
+    "defaultShelfLife": 689
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Soap Bar",
+    "defaultCostPrice": 38.82,
+    "defaultSellingPrice": 53.13,
+    "defaultShelfLife": 316
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Soap Bar",
+    "defaultCostPrice": 164.88,
+    "defaultSellingPrice": 222.45,
+    "defaultShelfLife": 475
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Mayonnaise",
+    "defaultCostPrice": 353.33,
+    "defaultSellingPrice": 464.66,
+    "defaultShelfLife": 1014
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Face Wash",
+    "defaultCostPrice": 89.97,
+    "defaultSellingPrice": 111.29,
+    "defaultShelfLife": 1076
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Liquid Detergent",
+    "defaultCostPrice": 291.87,
+    "defaultSellingPrice": 357.0,
+    "defaultShelfLife": 313
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Face Wash",
+    "defaultCostPrice": 399.76,
+    "defaultSellingPrice": 489.44,
+    "defaultShelfLife": 848
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Mayonnaise",
+    "defaultCostPrice": 387.25,
+    "defaultSellingPrice": 464.88,
+    "defaultShelfLife": 805
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Shampoo",
+    "defaultCostPrice": 152.63,
+    "defaultSellingPrice": 192.97,
+    "defaultShelfLife": 770
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Coffee Pack",
+    "defaultCostPrice": 47.44,
+    "defaultSellingPrice": 61.25,
+    "defaultShelfLife": 735
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Liquid Detergent",
+    "defaultCostPrice": 311.82,
+    "defaultSellingPrice": 423.78,
+    "defaultShelfLife": 910
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Shampoo",
+    "defaultCostPrice": 202.7,
+    "defaultSellingPrice": 270.32,
+    "defaultShelfLife": 356
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Hair Oil",
+    "defaultCostPrice": 302.41,
+    "defaultSellingPrice": 409.99,
+    "defaultShelfLife": 260
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Conditioner",
+    "defaultCostPrice": 62.61,
+    "defaultSellingPrice": 97.59,
+    "defaultShelfLife": 632
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Scrub",
+    "defaultCostPrice": 61.79,
+    "defaultSellingPrice": 94.08,
+    "defaultShelfLife": 655
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Instant Noodles",
+    "defaultCostPrice": 371.61,
+    "defaultSellingPrice": 474.44,
+    "defaultShelfLife": 922
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Face Wash",
+    "defaultCostPrice": 108.02,
+    "defaultSellingPrice": 158.21,
+    "defaultShelfLife": 888
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Liquid Detergent",
+    "defaultCostPrice": 344.91,
+    "defaultSellingPrice": 441.1,
+    "defaultShelfLife": 673
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Tea Pack",
+    "defaultCostPrice": 214.33,
+    "defaultSellingPrice": 253.61,
+    "defaultShelfLife": 293
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Tea Pack",
+    "defaultCostPrice": 227.13,
+    "defaultSellingPrice": 355.04,
+    "defaultShelfLife": 371
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Detergent Powder",
+    "defaultCostPrice": 257.58,
+    "defaultSellingPrice": 333.89,
+    "defaultShelfLife": 1003
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Body Lotion",
+    "defaultCostPrice": 314.92,
+    "defaultSellingPrice": 479.8,
+    "defaultShelfLife": 360
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Liquid Detergent",
+    "defaultCostPrice": 97.68,
+    "defaultSellingPrice": 151.74,
+    "defaultShelfLife": 279
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Dishwash Gel",
+    "defaultCostPrice": 40.04,
+    "defaultSellingPrice": 52.46,
+    "defaultShelfLife": 605
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Tea Pack",
+    "defaultCostPrice": 310.6,
+    "defaultSellingPrice": 414.8,
+    "defaultShelfLife": 281
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Mouthwash",
+    "defaultCostPrice": 288.06,
+    "defaultSellingPrice": 376.69,
+    "defaultShelfLife": 384
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Body Lotion",
+    "defaultCostPrice": 112.62,
+    "defaultSellingPrice": 137.02,
+    "defaultShelfLife": 367
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Shampoo",
+    "defaultCostPrice": 98.68,
+    "defaultSellingPrice": 142.52,
+    "defaultShelfLife": 1020
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Handwash",
+    "defaultCostPrice": 239.43,
+    "defaultSellingPrice": 341.44,
+    "defaultShelfLife": 898
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Face Wash",
+    "defaultCostPrice": 236.9,
+    "defaultSellingPrice": 352.24,
+    "defaultShelfLife": 649
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Dishwash Gel",
+    "defaultCostPrice": 319.58,
+    "defaultSellingPrice": 450.18,
+    "defaultShelfLife": 223
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Deodorant",
+    "defaultCostPrice": 219.22,
+    "defaultSellingPrice": 289.41,
+    "defaultShelfLife": 796
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Shampoo",
+    "defaultCostPrice": 322.32,
+    "defaultSellingPrice": 424.01,
+    "defaultShelfLife": 975
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Tea Pack",
+    "defaultCostPrice": 198.8,
+    "defaultSellingPrice": 270.08,
+    "defaultShelfLife": 459
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Face Wash",
+    "defaultCostPrice": 315.86,
+    "defaultSellingPrice": 378.74,
+    "defaultShelfLife": 300
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Dishwash Gel",
+    "defaultCostPrice": 244.8,
+    "defaultSellingPrice": 363.21,
+    "defaultShelfLife": 860
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Liquid Detergent",
+    "defaultCostPrice": 251.02,
+    "defaultSellingPrice": 298.59,
+    "defaultShelfLife": 794
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Body Lotion",
+    "defaultCostPrice": 280.66,
+    "defaultSellingPrice": 379.5,
+    "defaultShelfLife": 1071
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Toothpaste",
+    "defaultCostPrice": 38.85,
+    "defaultSellingPrice": 54.55,
+    "defaultShelfLife": 224
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Handwash",
+    "defaultCostPrice": 191.24,
+    "defaultSellingPrice": 286.91,
+    "defaultShelfLife": 858
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Cream",
+    "defaultCostPrice": 22.93,
+    "defaultSellingPrice": 33.17,
+    "defaultShelfLife": 791
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Mouthwash",
+    "defaultCostPrice": 114.55,
+    "defaultSellingPrice": 135.83,
+    "defaultShelfLife": 807
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Floor Cleaner",
+    "defaultCostPrice": 398.43,
+    "defaultSellingPrice": 497.69,
+    "defaultShelfLife": 560
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Soap Bar",
+    "defaultCostPrice": 31.57,
+    "defaultSellingPrice": 40.7,
+    "defaultShelfLife": 535
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Instant Noodles",
+    "defaultCostPrice": 157.49,
+    "defaultSellingPrice": 205.15,
+    "defaultShelfLife": 391
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Liquid Detergent",
+    "defaultCostPrice": 37.22,
+    "defaultSellingPrice": 46.72,
+    "defaultShelfLife": 447
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Mouthwash",
+    "defaultCostPrice": 329.75,
+    "defaultSellingPrice": 428.04,
+    "defaultShelfLife": 399
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Cream",
+    "defaultCostPrice": 39.46,
+    "defaultSellingPrice": 59.94,
+    "defaultShelfLife": 1060
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Face Wash",
+    "defaultCostPrice": 193.45,
+    "defaultSellingPrice": 228.46,
+    "defaultShelfLife": 782
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Handwash",
+    "defaultCostPrice": 26.66,
+    "defaultSellingPrice": 32.95,
+    "defaultShelfLife": 923
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Deodorant",
+    "defaultCostPrice": 55.6,
+    "defaultSellingPrice": 88.84,
+    "defaultShelfLife": 377
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Hair Oil",
+    "defaultCostPrice": 126.89,
+    "defaultSellingPrice": 174.99,
+    "defaultShelfLife": 732
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Body Lotion",
+    "defaultCostPrice": 331.08,
+    "defaultSellingPrice": 477.49,
+    "defaultShelfLife": 819
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Deodorant",
+    "defaultCostPrice": 227.35,
+    "defaultSellingPrice": 308.84,
+    "defaultShelfLife": 835
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Detergent Powder",
+    "defaultCostPrice": 35.77,
+    "defaultSellingPrice": 49.43,
+    "defaultShelfLife": 209
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Scrub",
+    "defaultCostPrice": 298.65,
+    "defaultSellingPrice": 378.17,
+    "defaultShelfLife": 890
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Mouthwash",
+    "defaultCostPrice": 303.1,
+    "defaultSellingPrice": 455.88,
+    "defaultShelfLife": 820
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Hair Oil",
+    "defaultCostPrice": 93.36,
+    "defaultSellingPrice": 137.44,
+    "defaultShelfLife": 633
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Floor Cleaner",
+    "defaultCostPrice": 71.64,
+    "defaultSellingPrice": 87.18,
+    "defaultShelfLife": 976
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Soap Bar",
+    "defaultCostPrice": 118.23,
+    "defaultSellingPrice": 148.94,
+    "defaultShelfLife": 699
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Soap Bar",
+    "defaultCostPrice": 56.63,
+    "defaultSellingPrice": 86.09,
+    "defaultShelfLife": 758
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Instant Noodles",
+    "defaultCostPrice": 88.09,
+    "defaultSellingPrice": 135.67,
+    "defaultShelfLife": 822
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Mayonnaise",
+    "defaultCostPrice": 72.09,
+    "defaultSellingPrice": 103.43,
+    "defaultShelfLife": 798
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Detergent Powder",
+    "defaultCostPrice": 267.0,
+    "defaultSellingPrice": 425.21,
+    "defaultShelfLife": 435
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Scrub",
+    "defaultCostPrice": 249.57,
+    "defaultSellingPrice": 321.88,
+    "defaultShelfLife": 586
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Tea Pack",
+    "defaultCostPrice": 167.3,
+    "defaultSellingPrice": 232.76,
+    "defaultShelfLife": 727
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Deodorant",
+    "defaultCostPrice": 278.36,
+    "defaultSellingPrice": 386.07,
+    "defaultShelfLife": 375
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Mouthwash",
+    "defaultCostPrice": 325.37,
+    "defaultSellingPrice": 498.53,
+    "defaultShelfLife": 524
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Conditioner",
+    "defaultCostPrice": 287.47,
+    "defaultSellingPrice": 402.64,
+    "defaultShelfLife": 286
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Mayonnaise",
+    "defaultCostPrice": 97.65,
+    "defaultSellingPrice": 118.91,
+    "defaultShelfLife": 290
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Tea Pack",
+    "defaultCostPrice": 302.45,
+    "defaultSellingPrice": 411.27,
+    "defaultShelfLife": 948
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Floor Cleaner",
+    "defaultCostPrice": 196.18,
+    "defaultSellingPrice": 260.63,
+    "defaultShelfLife": 911
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Body Lotion",
+    "defaultCostPrice": 327.57,
+    "defaultSellingPrice": 437.94,
+    "defaultShelfLife": 219
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Soap Bar",
+    "defaultCostPrice": 219.29,
+    "defaultSellingPrice": 293.53,
+    "defaultShelfLife": 609
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Handwash",
+    "defaultCostPrice": 103.98,
+    "defaultSellingPrice": 126.39,
+    "defaultShelfLife": 930
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Tea Pack",
+    "defaultCostPrice": 23.22,
+    "defaultSellingPrice": 30.4,
+    "defaultShelfLife": 211
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Shampoo",
+    "defaultCostPrice": 245.01,
+    "defaultSellingPrice": 344.58,
+    "defaultShelfLife": 346
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Body Lotion",
+    "defaultCostPrice": 220.61,
+    "defaultSellingPrice": 334.3,
+    "defaultShelfLife": 208
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Toothpaste",
+    "defaultCostPrice": 211.99,
+    "defaultSellingPrice": 256.14,
+    "defaultShelfLife": 518
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Dishwash Gel",
+    "defaultCostPrice": 311.73,
+    "defaultSellingPrice": 476.22,
+    "defaultShelfLife": 652
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Dishwash Gel",
+    "defaultCostPrice": 168.14,
+    "defaultSellingPrice": 262.34,
+    "defaultShelfLife": 675
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Instant Noodles",
+    "defaultCostPrice": 236.65,
+    "defaultSellingPrice": 315.05,
+    "defaultShelfLife": 796
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Coffee Pack",
+    "defaultCostPrice": 187.65,
+    "defaultSellingPrice": 292.58,
+    "defaultShelfLife": 187
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Shampoo",
+    "defaultCostPrice": 208.21,
+    "defaultSellingPrice": 261.38,
+    "defaultShelfLife": 618
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Conditioner",
+    "defaultCostPrice": 344.7,
+    "defaultSellingPrice": 421.8,
+    "defaultShelfLife": 804
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Cream",
+    "defaultCostPrice": 181.98,
+    "defaultSellingPrice": 230.87,
+    "defaultShelfLife": 876
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Deodorant",
+    "defaultCostPrice": 252.98,
+    "defaultSellingPrice": 375.79,
+    "defaultShelfLife": 765
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Hair Oil",
+    "defaultCostPrice": 153.55,
+    "defaultSellingPrice": 239.77,
+    "defaultShelfLife": 290
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Mouthwash",
+    "defaultCostPrice": 237.77,
+    "defaultSellingPrice": 330.56,
+    "defaultShelfLife": 776
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Mouthwash",
+    "defaultCostPrice": 411.43,
+    "defaultSellingPrice": 493.81,
+    "defaultShelfLife": 503
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Toothpaste",
+    "defaultCostPrice": 53.16,
+    "defaultSellingPrice": 68.42,
+    "defaultShelfLife": 200
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Detergent Powder",
+    "defaultCostPrice": 193.89,
+    "defaultSellingPrice": 288.68,
+    "defaultShelfLife": 1070
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Body Lotion",
+    "defaultCostPrice": 271.44,
+    "defaultSellingPrice": 417.12,
+    "defaultShelfLife": 587
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Liquid Detergent",
+    "defaultCostPrice": 86.06,
+    "defaultSellingPrice": 131.28,
+    "defaultShelfLife": 359
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Instant Noodles",
+    "defaultCostPrice": 68.1,
+    "defaultSellingPrice": 104.78,
+    "defaultShelfLife": 941
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Toothpaste",
+    "defaultCostPrice": 199.91,
+    "defaultSellingPrice": 263.22,
+    "defaultShelfLife": 1047
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Hair Oil",
+    "defaultCostPrice": 50.58,
+    "defaultSellingPrice": 79.35,
+    "defaultShelfLife": 207
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Hair Oil",
+    "defaultCostPrice": 132.25,
+    "defaultSellingPrice": 197.41,
+    "defaultShelfLife": 225
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Detergent Powder",
+    "defaultCostPrice": 192.06,
+    "defaultSellingPrice": 241.21,
+    "defaultShelfLife": 958
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Coffee Pack",
+    "defaultCostPrice": 225.99,
+    "defaultSellingPrice": 309.25,
+    "defaultShelfLife": 229
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Toothpaste",
+    "defaultCostPrice": 159.45,
+    "defaultSellingPrice": 235.53,
+    "defaultShelfLife": 259
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Mouthwash",
+    "defaultCostPrice": 270.67,
+    "defaultSellingPrice": 443.33,
+    "defaultShelfLife": 313
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Hair Oil",
+    "defaultCostPrice": 164.72,
+    "defaultSellingPrice": 260.93,
+    "defaultShelfLife": 286
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Cream",
+    "defaultCostPrice": 27.65,
+    "defaultSellingPrice": 43.04,
+    "defaultShelfLife": 1007
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Deodorant",
+    "defaultCostPrice": 30.76,
+    "defaultSellingPrice": 42.05,
+    "defaultShelfLife": 492
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Floor Cleaner",
+    "defaultCostPrice": 300.33,
+    "defaultSellingPrice": 480.81,
+    "defaultShelfLife": 763
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Conditioner",
+    "defaultCostPrice": 238.27,
+    "defaultSellingPrice": 341.63,
+    "defaultShelfLife": 714
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Shampoo",
+    "defaultCostPrice": 100.47,
+    "defaultSellingPrice": 118.89,
+    "defaultShelfLife": 973
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Mouthwash",
+    "defaultCostPrice": 307.44,
+    "defaultSellingPrice": 460.61,
+    "defaultShelfLife": 463
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Cream",
+    "defaultCostPrice": 298.61,
+    "defaultSellingPrice": 362.03,
+    "defaultShelfLife": 1055
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Mayonnaise",
+    "defaultCostPrice": 21.61,
+    "defaultSellingPrice": 32.26,
+    "defaultShelfLife": 968
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Face Wash",
+    "defaultCostPrice": 288.95,
+    "defaultSellingPrice": 413.04,
+    "defaultShelfLife": 747
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Conditioner",
+    "defaultCostPrice": 111.05,
+    "defaultSellingPrice": 138.01,
+    "defaultShelfLife": 734
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Toothpaste",
+    "defaultCostPrice": 164.04,
+    "defaultSellingPrice": 227.64,
+    "defaultShelfLife": 948
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Instant Noodles",
+    "defaultCostPrice": 209.28,
+    "defaultSellingPrice": 260.32,
+    "defaultShelfLife": 291
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Coffee Pack",
+    "defaultCostPrice": 118.9,
+    "defaultSellingPrice": 193.13,
+    "defaultShelfLife": 1009
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Face Wash",
+    "defaultCostPrice": 89.89,
+    "defaultSellingPrice": 126.98,
+    "defaultShelfLife": 1071
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Hair Oil",
+    "defaultCostPrice": 343.35,
+    "defaultSellingPrice": 453.43,
+    "defaultShelfLife": 1030
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Tea Pack",
+    "defaultCostPrice": 93.84,
+    "defaultSellingPrice": 112.59,
+    "defaultShelfLife": 456
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Soap Bar",
+    "defaultCostPrice": 143.6,
+    "defaultSellingPrice": 196.16,
+    "defaultShelfLife": 533
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Coffee Pack",
+    "defaultCostPrice": 225.65,
+    "defaultSellingPrice": 333.08,
+    "defaultShelfLife": 830
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Body Lotion",
+    "defaultCostPrice": 353.55,
+    "defaultSellingPrice": 466.65,
+    "defaultShelfLife": 300
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Scrub",
+    "defaultCostPrice": 87.44,
+    "defaultSellingPrice": 116.8,
+    "defaultShelfLife": 223
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Handwash",
+    "defaultCostPrice": 363.8,
+    "defaultSellingPrice": 469.45,
+    "defaultShelfLife": 701
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Cream",
+    "defaultCostPrice": 35.58,
+    "defaultSellingPrice": 55.95,
+    "defaultShelfLife": 411
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Deodorant",
+    "defaultCostPrice": 71.05,
+    "defaultSellingPrice": 91.66,
+    "defaultShelfLife": 860
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Mayonnaise",
+    "defaultCostPrice": 288.67,
+    "defaultSellingPrice": 358.86,
+    "defaultShelfLife": 383
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Hair Oil",
+    "defaultCostPrice": 369.33,
+    "defaultSellingPrice": 499.52,
+    "defaultShelfLife": 811
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Mayonnaise",
+    "defaultCostPrice": 165.21,
+    "defaultSellingPrice": 221.27,
+    "defaultShelfLife": 908
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Floor Cleaner",
+    "defaultCostPrice": 86.06,
+    "defaultSellingPrice": 118.28,
+    "defaultShelfLife": 1090
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Scrub",
+    "defaultCostPrice": 217.17,
+    "defaultSellingPrice": 296.0,
+    "defaultShelfLife": 292
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Liquid Detergent",
+    "defaultCostPrice": 187.31,
+    "defaultSellingPrice": 256.6,
+    "defaultShelfLife": 189
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Coffee Pack",
+    "defaultCostPrice": 112.23,
+    "defaultSellingPrice": 139.71,
+    "defaultShelfLife": 291
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Coffee Pack",
+    "defaultCostPrice": 139.96,
+    "defaultSellingPrice": 169.11,
+    "defaultShelfLife": 1018
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Handwash",
+    "defaultCostPrice": 37.38,
+    "defaultSellingPrice": 61.1,
+    "defaultShelfLife": 374
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Conditioner",
+    "defaultCostPrice": 212.23,
+    "defaultSellingPrice": 293.4,
+    "defaultShelfLife": 343
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Face Wash",
+    "defaultCostPrice": 82.63,
+    "defaultSellingPrice": 102.55,
+    "defaultShelfLife": 608
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Detergent Powder",
+    "defaultCostPrice": 261.8,
+    "defaultSellingPrice": 381.7,
+    "defaultShelfLife": 487
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Deodorant",
+    "defaultCostPrice": 155.3,
+    "defaultSellingPrice": 255.29,
+    "defaultShelfLife": 764
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Face Wash",
+    "defaultCostPrice": 105.85,
+    "defaultSellingPrice": 165.76,
+    "defaultShelfLife": 880
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Face Wash",
+    "defaultCostPrice": 327.67,
+    "defaultSellingPrice": 455.1,
+    "defaultShelfLife": 911
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Handwash",
+    "defaultCostPrice": 355.05,
+    "defaultSellingPrice": 498.91,
+    "defaultShelfLife": 1093
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Cream",
+    "defaultCostPrice": 48.65,
+    "defaultSellingPrice": 77.41,
+    "defaultShelfLife": 522
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Mayonnaise",
+    "defaultCostPrice": 219.23,
+    "defaultSellingPrice": 333.06,
+    "defaultShelfLife": 513
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Hair Oil",
+    "defaultCostPrice": 95.11,
+    "defaultSellingPrice": 131.22,
+    "defaultShelfLife": 1020
+  },
+  {
+    "brand": "Domex",
+    "category": "Home Care",
+    "name": "Domex Coffee Pack",
+    "defaultCostPrice": 284.96,
+    "defaultSellingPrice": 429.48,
+    "defaultShelfLife": 388
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Cream",
+    "defaultCostPrice": 102.92,
+    "defaultSellingPrice": 152.88,
+    "defaultShelfLife": 209
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Conditioner",
+    "defaultCostPrice": 155.21,
+    "defaultSellingPrice": 227.49,
+    "defaultShelfLife": 484
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Mayonnaise",
+    "defaultCostPrice": 237.53,
+    "defaultSellingPrice": 384.82,
+    "defaultShelfLife": 542
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Scrub",
+    "defaultCostPrice": 403.18,
+    "defaultSellingPrice": 494.45,
+    "defaultShelfLife": 972
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Cream",
+    "defaultCostPrice": 40.6,
+    "defaultSellingPrice": 64.45,
+    "defaultShelfLife": 386
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Shampoo",
+    "defaultCostPrice": 361.07,
+    "defaultSellingPrice": 433.8,
+    "defaultShelfLife": 460
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Liquid Detergent",
+    "defaultCostPrice": 193.84,
+    "defaultSellingPrice": 317.85,
+    "defaultShelfLife": 483
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Coffee Pack",
+    "defaultCostPrice": 256.16,
+    "defaultSellingPrice": 364.78,
+    "defaultShelfLife": 475
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Conditioner",
+    "defaultCostPrice": 216.53,
+    "defaultSellingPrice": 267.65,
+    "defaultShelfLife": 1093
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Conditioner",
+    "defaultCostPrice": 193.31,
+    "defaultSellingPrice": 245.87,
+    "defaultShelfLife": 680
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Deodorant",
+    "defaultCostPrice": 167.85,
+    "defaultSellingPrice": 270.49,
+    "defaultShelfLife": 196
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Scrub",
+    "defaultCostPrice": 320.03,
+    "defaultSellingPrice": 388.42,
+    "defaultShelfLife": 732
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Deodorant",
+    "defaultCostPrice": 329.04,
+    "defaultSellingPrice": 484.62,
+    "defaultShelfLife": 779
+  },
+  {
+    "brand": "Comfort",
+    "category": "Home Care",
+    "name": "Comfort Floor Cleaner",
+    "defaultCostPrice": 61.22,
+    "defaultSellingPrice": 101.47,
+    "defaultShelfLife": 185
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Tea Pack",
+    "defaultCostPrice": 360.28,
+    "defaultSellingPrice": 439.72,
+    "defaultShelfLife": 652
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Detergent Powder",
+    "defaultCostPrice": 190.71,
+    "defaultSellingPrice": 304.08,
+    "defaultShelfLife": 733
+  },
+  {
+    "brand": "Tresemme",
+    "category": "Personal Care",
+    "name": "Tresemme Tea Pack",
+    "defaultCostPrice": 280.72,
+    "defaultSellingPrice": 358.48,
+    "defaultShelfLife": 1000
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Liquid Detergent",
+    "defaultCostPrice": 196.89,
+    "defaultSellingPrice": 264.02,
+    "defaultShelfLife": 675
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Body Lotion",
+    "defaultCostPrice": 139.47,
+    "defaultSellingPrice": 184.78,
+    "defaultShelfLife": 273
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Coffee Pack",
+    "defaultCostPrice": 333.85,
+    "defaultSellingPrice": 486.2,
+    "defaultShelfLife": 846
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Detergent Powder",
+    "defaultCostPrice": 117.99,
+    "defaultSellingPrice": 190.45,
+    "defaultShelfLife": 936
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Mayonnaise",
+    "defaultCostPrice": 149.73,
+    "defaultSellingPrice": 213.55,
+    "defaultShelfLife": 1020
+  },
+  {
+    "brand": "Pond's",
+    "category": "Personal Care",
+    "name": "Pond's Shampoo",
+    "defaultCostPrice": 218.6,
+    "defaultSellingPrice": 293.12,
+    "defaultShelfLife": 909
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Instant Noodles",
+    "defaultCostPrice": 178.87,
+    "defaultSellingPrice": 270.05,
+    "defaultShelfLife": 1043
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Floor Cleaner",
+    "defaultCostPrice": 180.71,
+    "defaultSellingPrice": 228.4,
+    "defaultShelfLife": 185
+  },
+  {
+    "brand": "Brooke Bond",
+    "category": "Beverages",
+    "name": "Brooke Bond Dishwash Gel",
+    "defaultCostPrice": 105.31,
+    "defaultSellingPrice": 171.13,
+    "defaultShelfLife": 397
+  },
+  {
+    "brand": "Closeup",
+    "category": "Personal Care",
+    "name": "Closeup Toothpaste",
+    "defaultCostPrice": 66.45,
+    "defaultSellingPrice": 85.53,
+    "defaultShelfLife": 214
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Cream",
+    "defaultCostPrice": 307.25,
+    "defaultSellingPrice": 492.57,
+    "defaultShelfLife": 752
+  },
+  {
+    "brand": "Surf Excel",
+    "category": "Home Care",
+    "name": "Surf Excel Body Lotion",
+    "defaultCostPrice": 111.16,
+    "defaultSellingPrice": 145.59,
+    "defaultShelfLife": 530
+  },
+  {
+    "brand": "Axe",
+    "category": "Personal Care",
+    "name": "Axe Tea Pack",
+    "defaultCostPrice": 305.41,
+    "defaultSellingPrice": 443.45,
+    "defaultShelfLife": 780
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Instant Noodles",
+    "defaultCostPrice": 180.28,
+    "defaultSellingPrice": 285.46,
+    "defaultShelfLife": 353
+  },
+  {
+    "brand": "Hellmann's",
+    "category": "Foods",
+    "name": "Hellmann's Face Wash",
+    "defaultCostPrice": 313.72,
+    "defaultSellingPrice": 417.25,
+    "defaultShelfLife": 517
+  },
+  {
+    "brand": "Lux",
+    "category": "Personal Care",
+    "name": "Lux Dishwash Gel",
+    "defaultCostPrice": 337.26,
+    "defaultSellingPrice": 460.55,
+    "defaultShelfLife": 537
+  },
+  {
+    "brand": "Lifebuoy",
+    "category": "Personal Care",
+    "name": "Lifebuoy Dishwash Gel",
+    "defaultCostPrice": 343.25,
+    "defaultSellingPrice": 453.75,
+    "defaultShelfLife": 624
+  },
+  {
+    "brand": "Bru",
+    "category": "Beverages",
+    "name": "Bru Scrub",
+    "defaultCostPrice": 255.94,
+    "defaultSellingPrice": 329.87,
+    "defaultShelfLife": 1082
+  },
+  {
+    "brand": "Pepsodent",
+    "category": "Personal Care",
+    "name": "Pepsodent Shampoo",
+    "defaultCostPrice": 263.42,
+    "defaultSellingPrice": 436.07,
+    "defaultShelfLife": 757
+  },
+  {
+    "brand": "Lipton",
+    "category": "Beverages",
+    "name": "Lipton Handwash",
+    "defaultCostPrice": 220.2,
+    "defaultSellingPrice": 363.79,
+    "defaultShelfLife": 187
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Mayonnaise",
+    "defaultCostPrice": 129.94,
+    "defaultSellingPrice": 162.28,
+    "defaultShelfLife": 616
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Shampoo",
+    "defaultCostPrice": 201.95,
+    "defaultSellingPrice": 239.39,
+    "defaultShelfLife": 240
+  },
+  {
+    "brand": "Vim",
+    "category": "Home Care",
+    "name": "Vim Floor Cleaner",
+    "defaultCostPrice": 115.07,
+    "defaultSellingPrice": 136.41,
+    "defaultShelfLife": 270
+  },
+  {
+    "brand": "Dove",
+    "category": "Personal Care",
+    "name": "Dove Deodorant",
+    "defaultCostPrice": 91.4,
+    "defaultSellingPrice": 107.89,
+    "defaultShelfLife": 210
+  },
+  {
+    "brand": "Sunsilk",
+    "category": "Personal Care",
+    "name": "Sunsilk Hair Oil",
+    "defaultCostPrice": 76.94,
+    "defaultSellingPrice": 106.13,
+    "defaultShelfLife": 303
+  },
+  {
+    "brand": "Knorr",
+    "category": "Foods",
+    "name": "Knorr Floor Cleaner",
+    "defaultCostPrice": 341.38,
+    "defaultSellingPrice": 452.64,
+    "defaultShelfLife": 362
+  },
+  {
+    "brand": "Rexona",
+    "category": "Personal Care",
+    "name": "Rexona Soap Bar",
+    "defaultCostPrice": 79.86,
+    "defaultSellingPrice": 113.17,
+    "defaultShelfLife": 426
+  }
+]
