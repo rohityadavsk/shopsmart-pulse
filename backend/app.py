@@ -1,19 +1,22 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from kafka import KafkaProducer
-from kafka.errors import NoBrokersAvailable
-from kafka.errors import KafkaError
+from kafka.errors import NoBrokersAvailable, KafkaError
 import ssl
 import os
 import time
 import json
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', template_folder='templates')
 CORS(app)
 
-@app.route('/<path:filename>')
-def serve_frontend(filename):
-    return send_from_directory('../frontend', filename)
+@app.route('/')
+def home():
+    return "🚀 Flask backend is up and running!", 200
+
+@app.route('/product')
+def serve_product_form():
+    return render_template('product.html')
 
 @app.route('/health')
 def health():
@@ -60,10 +63,6 @@ def connect_kafka_producer(retries=5, delay=5):
 
 # Kafka Producer instance
 producer = connect_kafka_producer()
-
-@app.route('/')
-def home():
-    return "🚀 Flask backend is up and running!", 200
 
 @app.route('/api/products', methods=['POST'])
 def register_product():
