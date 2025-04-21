@@ -23,13 +23,17 @@
     <h2>Product Registration</h2>
     <form id="productForm">
       <!-- Product selection -->
-      <select id="productNameSelect" name="product_name" required>
+      <select id="categorySelect" name="category" required>
+        <option value="">Select Category</option>
+      </select>
+      
+      <select id="brandSelect" name="brand" required disabled>
+        <option value="">Select Brand</option>
+      </select>
+      
+      <select id="productNameSelect" name="product_name" required disabled>
         <option value="">Select Product</option>
       </select>
-
-      <!-- These will be auto-filled -->
-      <input type="text" id="brandInput" name="brand" placeholder="Brand" readonly required />
-      <input type="text" id="categoryInput" name="category" placeholder="Category" readonly required />
 
       <!-- Location dropdowns -->
       <select id="countrySelect" name="country" required>

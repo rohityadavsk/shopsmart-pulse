@@ -79,30 +79,72 @@ async function loadProducts() {
     const response = await fetch("/api/products-list");
     allProducts = await response.json();
 
+    const categorySelect = document.getElementById("categorySelect");
+    const brandSelect = document.getElementById("brandSelect");
     const productSelect = document.getElementById("productNameSelect");
-    allProducts.forEach(product => {
+
+    // Populate categories
+    const categories = [...new Set(allProducts.map(p => p.category))];
+    categories.forEach(category => {
       const option = document.createElement("option");
-      option.value = product.name;
-      option.textContent = product.name;
-      productSelect.appendChild(option);
+      option.value = category;
+      option.textContent = category;
+      categorySelect.appendChild(option);
+    });
+
+    categorySelect.addEventListener("change", () => {
+      const selectedCategory = categorySelect.value;
+      brandSelect.innerHTML = '<option value="">Select Brand</option>';
+      productSelect.innerHTML = '<option value="">Select Product</option>';
+      document.getElementById("costPriceInput").value = '';
+      document.getElementById("sellingPriceInput").value = '';
+      document.getElementById("shelfLifeInput").value = '';
+
+      const filteredBrands = [...new Set(allProducts
+        .filter(p => p.category === selectedCategory)
+        .map(p => p.brand))];
+
+      filteredBrands.forEach(brand => {
+        const option = document.createElement("option");
+        option.value = brand;
+        option.textContent = brand;
+        brandSelect.appendChild(option);
+      });
+
+      brandSelect.disabled = false;
+      productSelect.disabled = true;
+    });
+
+    brandSelect.addEventListener("change", () => {
+      const selectedCategory = categorySelect.value;
+      const selectedBrand = brandSelect.value;
+      productSelect.innerHTML = '<option value="">Select Product</option>';
+      document.getElementById("costPriceInput").value = '';
+      document.getElementById("sellingPriceInput").value = '';
+      document.getElementById("shelfLifeInput").value = '';
+
+      const filteredProducts = allProducts
+        .filter(p => p.category === selectedCategory && p.brand === selectedBrand);
+
+      filteredProducts.forEach(p => {
+        const option = document.createElement("option");
+        option.value = p.name;
+        option.textContent = p.name;
+        productSelect.appendChild(option);
+      });
+
+      productSelect.disabled = false;
     });
 
     productSelect.addEventListener("change", () => {
-      const selected = allProducts.find(p => p.name === productSelect.value);
-      if (selected) {
-        document.getElementById("brandInput").value = selected.brand;
-        document.getElementById("categoryInput").value = selected.category;
-        document.getElementById("costPriceInput").value = selected.defaultCostPrice;
-        document.getElementById("sellingPriceInput").value = selected.defaultSellingPrice;
-        document.getElementById("shelfLifeInput").value = selected.defaultShelfLife;
-      } else {
-        document.getElementById("brandInput").value = "";
-        document.getElementById("categoryInput").value = "";
-        document.getElementById("costPriceInput").value = "";
-        document.getElementById("sellingPriceInput").value = "";
-        document.getElementById("shelfLifeInput").value = "";
+      const selectedProduct = allProducts.find(p => p.name === productSelect.value);
+      if (selectedProduct) {
+        document.getElementById("costPriceInput").value = selectedProduct.defaultCostPrice;
+        document.getElementById("sellingPriceInput").value = selectedProduct.defaultSellingPrice;
+        document.getElementById("shelfLifeInput").value = selectedProduct.defaultShelfLife;
       }
     });
+
   } catch (err) {
     console.error("Failed to load product list:", err);
   }
