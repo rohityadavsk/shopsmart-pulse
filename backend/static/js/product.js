@@ -82,19 +82,19 @@ async function loadProducts() {
     const productSelect = document.getElementById("productNameSelect");
     allProducts.forEach(product => {
       const option = document.createElement("option");
-      option.value = product.product_name;
-      option.textContent = product.product_name;
+      option.value = product.name;
+      option.textContent = product.name;
       productSelect.appendChild(option);
     });
 
     productSelect.addEventListener("change", () => {
-      const selected = allProducts.find(p => p.product_name === productSelect.value);
+      const selected = allProducts.find(p => p.name === productSelect.value);
       if (selected) {
         document.getElementById("brandInput").value = selected.brand;
         document.getElementById("categoryInput").value = selected.category;
-        document.getElementById("costPriceInput").value = selected.cost_price;
-        document.getElementById("sellingPriceInput").value = selected.selling_price;
-        document.getElementById("shelfLifeInput").value = selected.shelf_life;
+        document.getElementById("costPriceInput").value = selected.defaultCostPrice;
+        document.getElementById("sellingPriceInput").value = selected.defaultSellingPrice;
+        document.getElementById("shelfLifeInput").value = selected.defaultShelfLife;
       } else {
         document.getElementById("brandInput").value = "";
         document.getElementById("categoryInput").value = "";
