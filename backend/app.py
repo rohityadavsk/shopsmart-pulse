@@ -72,15 +72,19 @@ def register_product():
             raise ValueError("Invalid JSON format. Expected a JSON object.")
 
         producer.send('product-topic', value=data)
-        
+        producer.flush()  # add this for better debugging
+
         return jsonify({
             "message": "Product sent to Kafka",
             "data": data
         }), 200
     except KafkaError as ke:
+        print(f"KafkaError: {ke}")  # log Kafka errors
         return jsonify({"error": f"Kafka error: {str(ke)}"}), 500
     except Exception as e:
+        print(f"Exception: {e}")  # log general exceptions
         return jsonify({"error": str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
