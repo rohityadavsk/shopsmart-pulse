@@ -2,4 +2,4 @@ flask
 flask_cors
 kafka-python
 gunicorn
-confluent-kafka==2.10.0
+confluent_kafka
