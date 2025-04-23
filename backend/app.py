@@ -38,10 +38,15 @@ def get_products():
             "details": str(e)
         }), 500
 
-# Kafka setup
+# Kafka delivery report (for cloud Kafka only)
+def delivery_report(err, msg):
+    if err is not None:
+        print(f"❌ Delivery failed: {err}")
+    else:
+        print(f"✅ Message delivered to {msg.topic()} [{msg.partition()}]")
+
 def create_producer():
     if USE_KAFKA:
-        # Cloud Kafka (e.g., Upstash)
         bootstrap_servers = os.getenv("KAFKA_BOOTSTRAP_SERVERS")
         api_key = os.getenv("KAFKA_API_KEY")
         api_secret = os.getenv("KAFKA_API_SECRET")
@@ -59,13 +64,10 @@ def create_producer():
 
         return Producer(conf)
     else:
-        # Local Kafka (PLAINTEXT)
         return KafkaProducer(
             bootstrap_servers='localhost:9092',
             value_serializer=lambda v: json.dumps(v).encode('utf-8')
         )
-
-producer = create_producer()
 
 @app.route('/api/products', methods=['POST'])
 def register_product():
@@ -73,6 +75,9 @@ def register_product():
         data = request.get_json()
         if not isinstance(data, dict):
             raise ValueError("Invalid JSON format. Expected a JSON object.")
+
+        # Create the producer here to avoid startup failures
+        producer = create_producer()
 
         if USE_KAFKA:
             payload = json.dumps(data)
@@ -89,13 +94,6 @@ def register_product():
     except Exception as e:
         print(f"❌ Exception: {e}")
         return jsonify({"error": str(e)}), 500
-
-# Optional: Kafka delivery report (cloud only)
-def delivery_report(err, msg):
-    if err is not None:
-        print(f"❌ Delivery failed: {err}")
-    else:
-        print(f"✅ Message delivered to {msg.topic()} [{msg.partition()}]")
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
