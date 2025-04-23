@@ -1,10 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-from kafka import KafkaProducer
-from kafka.errors import NoBrokersAvailable, KafkaError
-import ssl
+from confluent_kafka import Producer
 import os
-import time
 import json
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
@@ -35,7 +32,8 @@ def get_products():
             "details": str(e)
         }), 500
 
-def connect_kafka_producer(retries=5, delay=5):
+# Kafka Producer
+def create_producer():
     bootstrap_servers = os.getenv("KAFKA_BOOTSTRAP_SERVERS")
     api_key = os.getenv("KAFKA_API_KEY")
     api_secret = os.getenv("KAFKA_API_SECRET")
@@ -43,26 +41,24 @@ def connect_kafka_producer(retries=5, delay=5):
     if not all([bootstrap_servers, api_key, api_secret]):
         raise Exception("Kafka environment variables are missing.")
 
-    for attempt in range(retries):
-        try:
-            producer = KafkaProducer(
-                bootstrap_servers=bootstrap_servers,
-                security_protocol="SASL_SSL",
-                sasl_mechanism="PLAIN",
-                sasl_plain_username=api_key,
-                sasl_plain_password=api_secret,
-                ssl_context=ssl.create_default_context(),
-                value_serializer=lambda v: json.dumps(v).encode('utf-8')
-            )
-            print("✅ Kafka Producer connected successfully.")
-            return producer
-        except NoBrokersAvailable:
-            print(f"❌ Kafka not available (attempt {attempt + 1}/{retries}). Retrying in {delay} seconds...")
-            time.sleep(delay)
-    raise Exception("❌ Kafka broker not available after multiple retries.")
+    conf = {
+        'bootstrap.servers': bootstrap_servers,
+        'security.protocol': 'SASL_SSL',
+        'sasl.mechanisms': 'PLAIN',
+        'sasl.username': api_key,
+        'sasl.password': api_secret
+    }
 
-# Kafka Producer instance
-producer = connect_kafka_producer()
+    return Producer(conf)
+
+producer = create_producer()
+
+# Kafka delivery report (callback)
+def delivery_report(err, msg):
+    if err is not None:
+        print(f"❌ Delivery failed: {err}")
+    else:
+        print(f"✅ Message delivered to {msg.topic()} [{msg.partition()}]")
 
 @app.route('/api/products', methods=['POST'])
 def register_product():
@@ -71,20 +67,17 @@ def register_product():
         if not isinstance(data, dict):
             raise ValueError("Invalid JSON format. Expected a JSON object.")
 
-        producer.send('product-topic', value=data)
-        producer.flush()  # add this for better debugging
+        payload = json.dumps(data)
+        producer.produce('product-topic', key="product", value=payload, callback=delivery_report)
+        producer.flush()
 
         return jsonify({
             "message": "Product sent to Kafka",
             "data": data
         }), 200
-    except KafkaError as ke:
-        print(f"KafkaError: {ke}")  # log Kafka errors
-        return jsonify({"error": f"Kafka error: {str(ke)}"}), 500
     except Exception as e:
-        print(f"Exception: {e}")  # log general exceptions
+        print(f"❌ Exception: {e}")
         return jsonify({"error": str(e)}), 500
-
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
