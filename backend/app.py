@@ -2,16 +2,25 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import os
 import json
-
-USE_KAFKA = os.getenv("USE_KAFKA", "false").lower() == "true"
-
-if USE_KAFKA:
-    from confluent_kafka import Producer
-else:
-    from kafka import KafkaProducer
+from kafka import KafkaProducer
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
 CORS(app)
+
+# Kafka configuration
+KAFKA_BOOTSTRAP_SERVERS = os.getenv('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092')
+
+def create_producer():
+    try:
+        return KafkaProducer(
+            bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
+            value_serializer=lambda v: json.dumps(v).encode('utf-8'),
+            request_timeout_ms=5000,
+            retries=3
+        )
+    except Exception as e:
+        print(f"❌ Failed to create Kafka producer: {e}")
+        raise
 
 @app.route('/')
 def home():
@@ -38,37 +47,6 @@ def get_products():
             "details": str(e)
         }), 500
 
-# Kafka delivery report (for cloud Kafka only)
-def delivery_report(err, msg):
-    if err is not None:
-        print(f"❌ Delivery failed: {err}")
-    else:
-        print(f"✅ Message delivered to {msg.topic()} [{msg.partition()}]")
-
-def create_producer():
-    if USE_KAFKA:
-        bootstrap_servers = os.getenv("KAFKA_BOOTSTRAP_SERVERS")
-        api_key = os.getenv("KAFKA_API_KEY")
-        api_secret = os.getenv("KAFKA_API_SECRET")
-
-        if not all([bootstrap_servers, api_key, api_secret]):
-            raise Exception("Kafka environment variables are missing.")
-
-        conf = {
-            'bootstrap.servers': bootstrap_servers,
-            'security.protocol': 'SASL_SSL',
-            'sasl.mechanisms': 'PLAIN',
-            'sasl.username': api_key,
-            'sasl.password': api_secret
-        }
-
-        return Producer(conf)
-    else:
-        return KafkaProducer(
-            bootstrap_servers='localhost:9092',
-            value_serializer=lambda v: json.dumps(v).encode('utf-8')
-        )
-
 @app.route('/api/products', methods=['POST'])
 def register_product():
     try:
@@ -76,24 +54,21 @@ def register_product():
         if not isinstance(data, dict):
             raise ValueError("Invalid JSON format. Expected a JSON object.")
 
-        # Create the producer here to avoid startup failures
         producer = create_producer()
-
-        if USE_KAFKA:
-            payload = json.dumps(data)
-            producer.produce('product-topic', key="product", value=payload, callback=delivery_report)
-            producer.flush()
-        else:
-            producer.send('product-topic', value=data)
-            producer.flush()
+        producer.send('product-topic', value=data)
+        producer.flush()
+        producer.close()
 
         return jsonify({
-            "message": "Product sent to Kafka",
+            "message": "Product sent to Kafka successfully",
             "data": data
         }), 200
     except Exception as e:
         print(f"❌ Exception: {e}")
-        return jsonify({"error": str(e)}), 500
+        return jsonify({
+            "error": "Failed to send product to Kafka",
+            "details": str(e)
+        }), 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
